@@ -1,0 +1,148 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Dina Miko",
+      "publisher": "Universitas Dinamika",
+      "tray_image_file": "1.png",
+      "publisher_email":"humas@dinamika.ac.id",
+      "publisher_website": "https://www.dinamika.ac.id",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "1",
+      "stickers": [
+        {
+          "image_file": "Sticker_Dina_Miko_1.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_2.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_3.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_4.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_5.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_6.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_7.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_8.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_9.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_10.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_11.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_12.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_13.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_14.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_15.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_16.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_17.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_18.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Sticker_Dina_Miko_19.webp",
+          "emojis": ["😩","😨"]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Dina Miko Edisi Dirgahayu Kemerdekaan RI",
+      "publisher": "Universitas Dinamika",
+      "tray_image_file": "1.png",
+      "publisher_email":"humas@dinamika.ac.id",
+      "publisher_website": "https://www.dinamika.ac.id",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "1",
+      "stickers": [
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_1.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_2.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_3.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_4.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_5.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_6.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_7.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_8.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_9.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Dina_Miko_Edisi_Agustus_10.webp",
+          "emojis": ["😩","😨"]
+        }
+      ]
+    }
+  ]
+}
