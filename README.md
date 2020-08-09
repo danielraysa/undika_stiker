@@ -1,15 +1,12 @@
-# undika_stiker
+# Undika WhatsApp Sticker
 
-A new Flutter project.
+WhatsApp sticker project on Flutter.
+## Available in PlayStore
 
-## Getting Started
+<a href="#">![640px-Google_Play_Store_badge_EN svg](https://user-images.githubusercontent.com/13075784/85202629-55087180-b325-11ea-8307-acf71c9b7022.png)
+</a>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+References used from [this project](https://github.com/AkramChauhan/WhatsApp-Stickers-using-Flutter).
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,

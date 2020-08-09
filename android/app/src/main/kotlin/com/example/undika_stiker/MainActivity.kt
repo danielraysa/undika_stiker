@@ -1,4 +1,4 @@
-package com.example.undika_stiker
+package com.dinamika.undika_stiker
 
 import io.flutter.embedding.android.FlutterActivity
 
