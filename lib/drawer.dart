@@ -36,7 +36,7 @@ class MyDrawer extends StatelessWidget {
             title: Text("Share",style: _menuTextColor),
             onTap: () {
               Share.text("Undika WAStickers ",
-                  "https://play.google.com/store/apps/details?id=com.dinamika.undika_stiker","text/plain");
+                  "https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker","text/plain");
             },
           ),
           ListTile(
@@ -47,7 +47,7 @@ class MyDrawer extends StatelessWidget {
             title: Text("Rating & Review",style: _menuTextColor),
             onTap: () async {
               Navigator.of(context).pop();
-              const url = 'https://play.google.com/store/apps/details?id=com.dinamika.undika_stiker';
+              const url = 'https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker';
               if (await canLaunch(url)) {
                 await launch(url);
               } else {
