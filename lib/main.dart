@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-// import 'package:trendy_whatsapp_stickers/Widgets/Admob.dart';
-// import 'package:trendy_whatsapp_stickers/Widgets/Drawer.dart';
+import 'package:undika_stiker/drawer.dart';
 import 'package:undika_stiker/sticker_list.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // final String title = 'Undika WhatsApp Stickers';
+  // final String title = 'Undika WAStickers';
 
   @override
   Widget build(BuildContext context) {
@@ -34,11 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
     //AdmobAd.initialize();
     //AdmobAd.showBannerAd();
   }
-  @override
-  void dispose() {
-    //AdmobAd.hideBannerAd();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -50,12 +44,12 @@ class _MyHomePageState extends State<MyHomePage> {
     );
     return Scaffold(
       appBar: AppBar(
-        title: Text('Undika WhatsApp Stickers'),
+        title: Text('Undika WAStickers'),
       ),
       body: StaticContent(),
-      /* drawer: Drawer(
+      drawer: Drawer(
         child: MyDrawer(),
-      ), */
+      ),
       //persistentFooterButtons: fakeBottomButtons,
     );
   }
