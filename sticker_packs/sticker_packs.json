@@ -1,201 +1,253 @@
 {
-  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker",
-  "ios_app_store_link": "",
-  "sticker_packs": [
-    {
-      "identifier": "1",
-      "name": "Dina Miko",
-      "publisher": "Universitas Dinamika",
-      "tray_image_file": "tray.png",
-      "publisher_email":"developer@dinamika.ac.id",
-      "publisher_website": "https://www.dinamika.ac.id",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "image_data_version": "1",
-      "stickers": [
-        {
-          "image_file": "Sticker_Dina_Miko_1.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_2.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_3.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_4.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_5.webp",
-          "emojis": ["😘","🍪"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_6.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_7.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_8.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_9.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_10.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_11.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_12.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_13.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_14.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_15.webp",
-          "emojis": ["😘","🍪"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_16.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_17.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_18.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Sticker_Dina_Miko_19.webp",
-          "emojis": ["😩","😨"]
-        }
-      ]
-    },
-    {
-      "identifier": "2",
-      "name": "Dina Miko Edisi Dirgahayu Kemerdekaan RI",
-      "publisher": "Universitas Dinamika",
-      "tray_image_file": "tray.png",
-      "publisher_email":"developer@dinamika.ac.id",
-      "publisher_website": "https://www.dinamika.ac.id",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "image_data_version": "1",
-      "stickers": [
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_1.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_2.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_3.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_4.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_5.webp",
-          "emojis": ["😘","🍪"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_6.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_7.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_8.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_9.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_Edisi_Agustus_10.webp",
-          "emojis": ["😩","😨"]
-        }
-      ]
-    },
-    {
-      "identifier": "3",
-      "name": "Orientasi Kegiatan Kampus",
-      "publisher": "Universitas Dinamika",
-      "tray_image_file": "sept_tray.png",
-      "publisher_email":"developer@dinamika.ac.id",
-      "publisher_website": "https://www.dinamika.ac.id",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "image_data_version": "1",
-      "stickers": [
-        {
-          "image_file": "Dina_Miko_September_02.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "Dina_Miko_September_03.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "Dina_Miko_September_04.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "Dina_Miko_September_05.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "Dina_Miko_September_06.webp",
-          "emojis": ["😘","🍪"]
-        },
-        {
-          "image_file": "Dina_Miko_September_07.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_September_08.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_September_10.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_September_11.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "Dina_Miko_September_12.webp",
-          "emojis": ["😩","😨"]
-        }
-      ]
-    }
-  ]
+	"android_play_store_link": "https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker",
+	"ios_app_store_link": "",
+	"sticker_packs": [{
+			"identifier": "1",
+			"name": "Dina Miko",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Sticker_Dina_Miko_1.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_2.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_3.webp",
+					"emojis": ["💔", "👎"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_4.webp",
+					"emojis": ["😍", "💑"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_5.webp",
+					"emojis": ["😘", "🍪"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_6.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_7.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_8.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_9.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_10.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_11.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_12.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_13.webp",
+					"emojis": ["💔", "👎"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_14.webp",
+					"emojis": ["😍", "💑"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_15.webp",
+					"emojis": ["😘", "🍪"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_16.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_17.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_18.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_19.webp",
+					"emojis": ["😩", "😨"]
+				}
+			]
+		},
+		{
+			"identifier": "2",
+			"name": "Edisi Dirgahayu Kemerdekaan RI",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Dina_Miko_Edisi_Agustus_1.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_2.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_3.webp",
+					"emojis": ["💔", "👎"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_4.webp",
+					"emojis": ["😍", "💑"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_5.webp",
+					"emojis": ["😘", "🍪"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_6.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_7.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_8.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_9.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Agustus_10.webp",
+					"emojis": ["😩", "😨"]
+				}
+			]
+		},
+		{
+			"identifier": "3",
+			"name": "Orientasi Kegiatan Kampus",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "sept_tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Dina_Miko_September_02.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Dina_Miko_September_03.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Dina_Miko_September_04.webp",
+					"emojis": ["💔", "👎"]
+				},
+				{
+					"image_file": "Dina_Miko_September_05.webp",
+					"emojis": ["😍", "💑"]
+				},
+				{
+					"image_file": "Dina_Miko_September_06.webp",
+					"emojis": ["😘", "🍪"]
+				},
+				{
+					"image_file": "Dina_Miko_September_07.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_September_08.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_September_10.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_September_11.webp",
+					"emojis": ["😩", "😨"]
+				},
+				{
+					"image_file": "Dina_Miko_September_12.webp",
+					"emojis": ["😩", "😨"]
+				}
+			]
+		},
+		{
+			"identifier": "4",
+			"name": "Graduation Day",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "grad_tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Dina_Miko_Edisi_Graduation_01.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Graduation_02.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Graduation_03.webp",
+					"emojis": ["💔", "👎"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Graduation_04.webp",
+					"emojis": ["😍", "💑"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Graduation_05.webp",
+					"emojis": ["😘", "🍪"]
+				}
+			]
+		},
+		{
+			"identifier": "5",
+			"name": "Halloween Day",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "halloween_tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Dina_Miko_Edisi_Helloween_01.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Helloween_02.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Helloween_03.webp",
+					"emojis": ["💔", "👎"]
+				}
+			]
+		}
+	]
 }
