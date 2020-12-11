@@ -304,6 +304,62 @@
 					"emojis": ["😘", "🍪"]
 				}
 			]
+		},
+		{
+			"identifier": "8",
+			"name": "Edisi Hari Natal",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "natal_tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Sticker_Dina_Miko_Natal_01.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_Natal_02.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_Natal_03.webp",
+					"emojis": ["💔", "👎"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_Natal_04.webp",
+					"emojis": ["😘", "🍪"]
+				}
+			]
+		},
+		{
+			"identifier": "9",
+			"name": "Edisi New Year",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "newyear_tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Sticker_Dina_Miko_Edisi_New_Year_01.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_Edisi_New_Year_02.webp",
+					"emojis": ["😭", "💧"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_Edisi_New_Year_03.webp",
+					"emojis": ["💔", "👎"]
+				},
+				{
+					"image_file": "Sticker_Dina_Miko_Edisi_New_Year_04.webp",
+					"emojis": ["😘", "🍪"]
+				}
+			]
 		}
 	]
 }
