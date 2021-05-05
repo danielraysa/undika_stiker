@@ -36,12 +36,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    List<Widget> fakeBottomButtons = new List<Widget>();
+    /* List<Widget> fakeBottomButtons = new List<Widget>();
     fakeBottomButtons.add(
       Container(
         height: 50.0,
       ),
-    );
+    ); */
     return Scaffold(
       appBar: AppBar(
         title: Text('Undika WAStickers'),

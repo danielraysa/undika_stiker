@@ -1,0 +1,5 @@
+
+storePassword=undika2020
+keyPassword=undika2020
+keyAlias=key
+storeFile=key.jks

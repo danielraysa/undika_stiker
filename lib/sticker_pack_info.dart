@@ -41,12 +41,12 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
   @override
   Widget build(BuildContext context) {
     List totalStickers = stickerPack[4];
-    List<Widget> fakeBottomButtons = new List<Widget>();
+    /* List<Widget> fakeBottomButtons = new List<Widget>();
     fakeBottomButtons.add(
       Container(
         height: 50.0,
       ),
-    );
+    ); */
     Widget depInstallWidget;
     if (stickerPack[5]==true) {
       depInstallWidget =  Padding(
