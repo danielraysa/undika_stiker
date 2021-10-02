@@ -47,7 +47,7 @@ class ApiService {
     preferences = await SharedPreferences.getInstance();
     var token = preferences.getString('token');
     var response = await client.post(
-      "$apiUrl/logout",
+      Uri.parse("$apiUrl/logout"),
       headers: {"Authorization": "Bearer $token"},
     );
     debugPrint(response.statusCode.toString());

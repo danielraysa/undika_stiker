@@ -9,10 +9,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Map<int, Color> colorCodes = {
+      50: Color.fromRGBO(219, 29, 29, .1),
+      100: Color.fromRGBO(219, 29, 29, .2),
+      200: Color.fromRGBO(219, 29, 29, .3),
+      300: Color.fromRGBO(219, 29, 29, .4),
+      400: Color.fromRGBO(219, 29, 29, .5),
+      500: Color.fromRGBO(219, 29, 29, .6),
+      600: Color.fromRGBO(219, 29, 29, .7),
+      700: Color.fromRGBO(219, 29, 29, .8),
+      800: Color.fromRGBO(219, 29, 29, .9),
+      900: Color.fromRGBO(219, 29, 29, 1),
+    };
+
+    MaterialColor materialColor= new MaterialColor(0XFFDB1D1D, colorCodes);
     return MaterialApp(
       // title: title,
       theme: ThemeData(
         primaryColor: Colors.red[600],
+        primarySwatch: materialColor,
       ),
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),

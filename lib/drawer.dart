@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:esys_flutter_share/esys_flutter_share.dart';
+import 'package:share_plus/share_plus.dart';
 
 class MyDrawer extends StatelessWidget {
   static const TextStyle _menuTextColor = TextStyle(
@@ -35,8 +35,8 @@ class MyDrawer extends StatelessWidget {
             ),
             title: Text("Share",style: _menuTextColor),
             onTap: () {
-              Share.text("Undika WAStickers ",
-                  "https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker","text/plain");
+              // Share.share("Undika WAStickers ","https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker","text/plain");
+              Share.share("https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker", subject: "Bagikan Undika WAStickers");
             },
           ),
           ListTile(
