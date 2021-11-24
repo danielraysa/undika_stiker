@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
+import 'package:in_app_update/in_app_update.dart';
 import 'package:undika_stiker/utils.dart';
 import 'package:undika_stiker/sticker_pack_info.dart';
 
@@ -14,6 +15,15 @@ class _StaticContentState extends State<StaticContent> {
   final WhatsAppStickers _waStickers = WhatsAppStickers();
   List stickerList = new List();
   List installedStickers = new List();
+
+  // Platform messages are asynchronous, so we initialize in an async method.
+  Future<void> checkForUpdate() async {
+    InAppUpdate.checkForUpdate().then((info) {
+      if(info.updateAvailability == UpdateAvailability.updateAvailable){
+        InAppUpdate.performImmediateUpdate().catchError((e) => print(e.toString()));
+      }
+    });
+  }
 
   void _loadStickers() async{
     String data = await rootBundle.loadString("sticker_packs/sticker_packs.json");
@@ -54,6 +64,7 @@ class _StaticContentState extends State<StaticContent> {
   @override
   void initState() {
     super.initState();
+    checkForUpdate();
     _loadStickers();
   }
 
