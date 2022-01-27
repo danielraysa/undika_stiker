@@ -129,13 +129,16 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
                 itemBuilder: (context, index) {
                   var stickerImg = "sticker_packs/${stickerPack[0]}/${totalStickers[index]['image_file']}";
                   return InkWell(
-                    onTap: () {},
-                    child: Container(
-                      padding: const EdgeInsets.all(5.0),
-                      child: Image.asset(stickerImg,
-                        width:100,
-                        height: 100,
-                      ),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (builder) => PreviewSticker(tag: totalStickers[index]['image_file'], image: stickerImg))),
+                    child: Hero(
+                      tag: stickerImg,
+                      child: Container(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Image.asset(stickerImg,
+                          width:100,
+                          height: 100,
+                        ),
+                      )
                     )
                   );
                 }
@@ -150,8 +153,36 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
 }
 
 class PreviewSticker extends StatelessWidget {
+  String tag;
+  String image;
+  PreviewSticker({this.tag, this.image});
+
   @override
   Widget build(BuildContext context) {
-    return Hero(tag: 'preview', child: Image.asset('testi'));
+    return Scaffold(
+      body: GestureDetector(
+        onTap: () {
+          Navigator.pop(context);
+        },
+        child: Center(
+          child: Hero(
+            tag: tag,
+            child: Container(
+              padding: EdgeInsets.all(16),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Icon(Icons.close),
+                  Image.asset(
+                      image,
+                  )
+                ]
+              )
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
