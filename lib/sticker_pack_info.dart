@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_whatsapp_stickers/flutter_whatsapp_stickers.dart';
 import 'package:undika_stiker/utils.dart';
@@ -84,7 +83,7 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
     }
     return Scaffold(
       appBar: AppBar(
-        title: Text("${stickerPack[1]} Stickers"),
+        title: Text("${stickerPack[1]}"),
       ),
       body: Column(
         children: <Widget>[
@@ -129,12 +128,15 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
                 itemCount: totalStickers.length,
                 itemBuilder: (context, index) {
                   var stickerImg = "sticker_packs/${stickerPack[0]}/${totalStickers[index]['image_file']}";
-                  return Padding(
-                    padding: const EdgeInsets.all(5.0),
-                    child: Image.asset(stickerImg,
-                      width:100,
-                      height: 100,
-                    ),
+                  return InkWell(
+                    onTap: () {},
+                    child: Container(
+                      padding: const EdgeInsets.all(5.0),
+                      child: Image.asset(stickerImg,
+                        width:100,
+                        height: 100,
+                      ),
+                    )
                   );
                 }
             ),
@@ -144,5 +146,12 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
       // persistentFooterButtons: fakeBottomButtons,
 
     );
+  }
+}
+
+class PreviewSticker extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Hero(tag: 'preview', child: Image.asset('testi'));
   }
 }

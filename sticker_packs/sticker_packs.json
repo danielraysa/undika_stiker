@@ -528,6 +528,42 @@
 					"emojis": ["😘", "🍪"]
 				}
 			]
+		},
+		{
+			"identifier": "15",
+			"name": "Edisi Imlek 2022",
+			"publisher": "Universitas Dinamika",
+			"tray_image_file": "imlek_tray.png",
+			"publisher_email": "developer@dinamika.ac.id",
+			"publisher_website": "https://www.dinamika.ac.id",
+			"privacy_policy_website": "",
+			"license_agreement_website": "",
+			"image_data_version": "1",
+			"stickers": [{
+					"image_file": "Dina_Miko_Edisi_Imlek_01.webp",
+					"emojis": ["😆", "😂"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Imlek_02.webp",
+					"emojis": ["😆", "👌"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Imlek_03.webp",
+					"emojis": ["😁", "👍"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Imlek_04.webp",
+					"emojis": ["😘", "🍪"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Imlek_05.webp",
+					"emojis": ["😘", "🍪"]
+				},
+				{
+					"image_file": "Dina_Miko_Edisi_Imlek_06.webp",
+					"emojis": ["😘", "🍪"]
+				}
+			]
 		}
 	]
 }
