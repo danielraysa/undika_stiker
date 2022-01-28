@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:undika_stiker/drawer.dart';
 import 'package:undika_stiker/sticker_list.dart';
 
@@ -60,11 +61,19 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Undika WAStickers'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.share),
+            onPressed: (){
+              Share.share("https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker", subject: "Bagikan Undika WAStickers");
+            },
+          )
+        ],
       ),
       body: StaticContent(),
-      drawer: Drawer(
-        child: MyDrawer(),
-      ),
+      // drawer: Drawer(
+      //   child: MyDrawer(),
+      // ),
       //persistentFooterButtons: fakeBottomButtons,
     );
   }
