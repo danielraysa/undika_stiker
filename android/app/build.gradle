@@ -36,7 +36,7 @@ android {
     aaptOptions {
         noCompress "webp"
     }
-    compileSdkVersion 28
+    compileSdkVersion 31
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
