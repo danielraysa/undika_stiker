@@ -27,6 +27,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // title: title,
       theme: ThemeData(
+        useMaterial3: true,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.red, 
+          titleTextStyle: TextStyle(color: Colors.white, fontSize: 16.0), 
+          actionsIconTheme: IconThemeData(color: Colors.white), 
+          iconTheme: IconThemeData(color: Colors.white),
+        ),
         primaryColor: Colors.red[600],
         primarySwatch: materialColor,
       ),
@@ -63,10 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text('Undika WAStickers'),
         actions: [
           IconButton(
+            color: Colors.white,
             icon: Icon(Icons.share),
-            onPressed: (){
-              Share.share("https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker", subject: "Bagikan Undika WAStickers");
-            },
+            onPressed: () => Share.share("https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker", subject: "Bagikan Undika WAStickers"),
           )
         ],
       ),

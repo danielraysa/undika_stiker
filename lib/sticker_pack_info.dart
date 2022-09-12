@@ -48,7 +48,7 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
     ); */
     Widget depInstallWidget;
     if (stickerPack[5]==true) {
-      depInstallWidget =  Padding(
+      depInstallWidget = Padding(
         padding: const EdgeInsets.symmetric(vertical:8.0),
         child: Text("Sticker Added",style: TextStyle(
             color: Colors.green,
@@ -57,10 +57,10 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
         ),),
       );
     } else {
-      depInstallWidget =RaisedButton(
+      depInstallWidget = ElevatedButton(
         child: Text("Add Sticker"),
-        textColor: Colors.white,
-        color: Colors.teal[900],
+        // textColor: Colors.white,
+        // color: Colors.teal[900],
         onPressed: () async {
           _waStickers.addStickerPack(
             packageName: WhatsAppPackage.Consumer,
@@ -106,7 +106,7 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
                     Text("${stickerPack[1]}", style: TextStyle(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.teal[900],
+                      color: Colors.red[900],
                     ),),
                     Text("${stickerPack[2]}",style: TextStyle(
                       fontSize: 14.0,

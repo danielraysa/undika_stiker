@@ -119,7 +119,7 @@ class _StaticContentState extends State<StaticContent> {
         icon: Icon(
           Icons.check,
         ),
-        color: Colors.red,
+        color: Colors.grey,
         tooltip: 'Sticker Added',
         onPressed: (){},
       );
@@ -128,7 +128,7 @@ class _StaticContentState extends State<StaticContent> {
         icon: Icon(
           Icons.add,
         ),
-        color: Colors.teal,
+        color: Colors.red,
         tooltip: 'Add Sticker to WhatsApp',
         onPressed: () async {
           _waStickers.addStickerPack(

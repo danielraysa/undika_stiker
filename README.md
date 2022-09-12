@@ -16,6 +16,11 @@ Steps to add extra stickers:
 
 References used from [this project](https://github.com/AkramChauhan/WhatsApp-Stickers-using-Flutter).
 
-For help getting started with Flutter, view our
+For help getting started with Flutter, view Flutter's
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<hr>
+
+## TODO
+1. Get dynamic sticker packs from website/API
+2. ``flutter_whatsapp_stickers`` plugin is deprecated

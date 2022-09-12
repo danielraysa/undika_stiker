@@ -22,7 +22,7 @@ Future<void> processResponse(
       successCallback();
       break;
     case StickerPackResult.CANCELLED:
-      snackBar = SnackBar(content: Text('Cancelled Sticker Pack Install'));
+      snackBar = SnackBar(content: Text('Gagal menambabkan Sticker Pack'));
       break;
     case StickerPackResult.ERROR:
       snackBar = SnackBar(content: Text(error));
@@ -34,6 +34,6 @@ Future<void> processResponse(
 
   /// Display a snack bar
   if (snackBar != null && context != null) {
-    Scaffold.of(context).showSnackBar(snackBar);
+    ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 }
