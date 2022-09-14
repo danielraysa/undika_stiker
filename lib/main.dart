@@ -1,12 +1,24 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:undika_stiker/drawer.dart';
 import 'package:undika_stiker/sticker_list.dart';
+import 'package:in_app_update/in_app_update.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // final String title = 'Undika WAStickers';
+
+  bool isDarkMode() {
+    final darkMode = WidgetsBinding.instance.window.platformBrightness;
+    if (darkMode == Brightness.dark) {
+      return true;
+    }
+    return false;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,12 +40,13 @@ class MyApp extends StatelessWidget {
       // title: title,
       theme: ThemeData(
         useMaterial3: true,
-        appBarTheme: AppBarTheme(
+        brightness: isDarkMode() ? Brightness.dark : Brightness.light,
+        /* appBarTheme: AppBarTheme(
           backgroundColor: Colors.red, 
           titleTextStyle: TextStyle(color: Colors.white, fontSize: 16.0), 
           actionsIconTheme: IconThemeData(color: Colors.white), 
           iconTheme: IconThemeData(color: Colors.white),
-        ),
+        ), */
         primaryColor: Colors.red[600],
         primarySwatch: materialColor,
       ),
@@ -53,8 +66,20 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
+    checkForUpdate();
     //AdmobAd.initialize();
     //AdmobAd.showBannerAd();
+  }
+
+  // Platform messages are asynchronous, so we initialize in an async method.
+  Future<void> checkForUpdate() async {
+    if (!kDebugMode) {
+      InAppUpdate.checkForUpdate().then((info) {
+        if(info.updateAvailability == UpdateAvailability.updateAvailable){
+          InAppUpdate.performImmediateUpdate().catchError((e) => print(e.toString()));
+        }
+      });
+    }
   }
 
   @override
@@ -70,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text('Undika WAStickers'),
         actions: [
           IconButton(
-            color: Colors.white,
+            // color: Colors.white,
             icon: Icon(Icons.share),
             onPressed: () => Share.share("https://play.google.com/store/apps/details?id=com.dinamika.undika_wastiker", subject: "Bagikan Undika WAStickers"),
           )

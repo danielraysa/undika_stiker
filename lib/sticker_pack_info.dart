@@ -110,7 +110,7 @@ class _StickerPackInformationState extends State<StickerPackInformation> {
                     ),),
                     Text("${stickerPack[2]}",style: TextStyle(
                       fontSize: 14.0,
-                      color: Colors.black54,
+                      // color: Colors.black54,
                     ),),
                     depInstallWidget,
                   ],
